@@ -11,7 +11,10 @@ public class TestReadFileByLine {
 
 	public static void main(String[] args) throws Exception {
 
+		// Open file
 		FileReader file = new FileReader("f:/test.txt");
+
+		// Open buffered stream from the file
 		BufferedReader in = new BufferedReader(file);
 
 		String line = in.readLine();
@@ -19,6 +22,8 @@ public class TestReadFileByLine {
 			System.out.println(line);
 			line = in.readLine();
 		}
+
+		// close streams
 		in.close();
 	}
 
