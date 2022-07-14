@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
 /**
- * Programm reads text from the keyboard and stores it into a text file.
+ * reads text from the keyboard and stores it into a text file.
  * 
  * @author Sunil Sahu
  */
